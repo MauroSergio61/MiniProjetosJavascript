@@ -1,0 +1,125 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0c0120;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* TÍTULO */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* INPUT E BOTÃO DE ADICIONAR */
+#taskInput {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: border 0.3s;
+}
+
+#taskInput:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* LISTA DE TAREFAS */
+#taskList {
+    list-style: none;
+}
+
+#taskList li {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+#taskList li:hover {
+    background: #f0f0f0;
+}
+
+#taskList li span {
+    flex-grow: 1;
+    margin-right: 15px;
+    word-break: break-word;
+}
+
+/* BOTÕES DE EDIÇÃO E REMOÇÃO */
+.editButton, .deleteButton {
+    padding: 8px 12px;
+    margin-left: 8px;
+    font-size: 14px;
+    width: auto;
+}
+
+.editButton {
+    background-color: #2196F3;
+}
+
+.editButton:hover {
+    background-color: #0b7dda;
+}
+
+.deleteButton {
+    background-color: #f44336;
+}
+
+.deleteButton:hover {
+    background-color: #da190b;
+}
+
+/* TAREFA CONCLUÍDA (OPCIONAL - PODE ADICIONAR DEPOIS) */
+.completed {
+    text-decoration: line-through;
+    color: #888;
+    background-color: #e8f5e9 !important;
+}

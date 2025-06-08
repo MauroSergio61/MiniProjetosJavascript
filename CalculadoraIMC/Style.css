@@ -1,0 +1,122 @@
+/* Reset e estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container principal  */
+.container {
+    width: 375px;
+    height: 667px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Título */
+.tittle {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0;
+    color: #333;
+}
+
+/* Inputs */
+.input {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+.input input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Botão */
+#calcular {
+    width: 80%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+
+#calcular:hover {
+    background-color: #45a049;
+}
+
+/* Responsividade  */
+@media (max-width: 400px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+}
+
+.resultado {
+    width: 80%;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    display: none; /* Inicialmente oculto */
+    font-family: Arial, sans-serif;
+}
+
+#mensagem {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#valor-imc {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#classificacao {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Cores para as classificações */
+.abaixo-peso { color: #2196F3; }
+.normal { color: #4CAF50; }
+.sobrepeso { color: #FFC107; }
+.obesidade-1 { color: #FF9800; }
+.obesidade-2 { color: #F44336; }
+.obesidade-3 { color: #B71C1C; }

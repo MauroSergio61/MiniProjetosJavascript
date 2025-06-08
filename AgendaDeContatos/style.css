@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.formulario {
+    grid-column: 1;
+    grid-row: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+
+.consulta {
+    grid-column: 2;
+    grid-row: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+
+.Agenda {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow-y: auto; /* Adiciona scroll se necessário */
+}
+
+h2 {
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 50%;
+    padding: 8px;
+    margin: 8px 0 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"],
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button#btnMostrarTodos {
+    background-color: #2196F3;
+}
+
+.contato-card {
+    background: #f9f9f9;
+    border-left: 4px solid #4CAF50;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.acoes-contato button {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.btn-editar {
+    background-color: #FFC107 !important;
+}
+
+.btn-excluir {
+    background-color: #f44336 !important;
+}

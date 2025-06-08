@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main>
+   <div class="formulario">
+            <h2>Novo Contato</h2>
+            <form id="formContato">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" required><br>
+                
+                <label for="numero">Número</label>
+                <input type="tel" id="numero" required><br>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" required><br>
+                
+                <input type="submit" value="Incluir">
+            </form>
+        </div><!--formulario-->
+
+ <div class="consulta">
+            <h2>Consultar Contatos</h2>
+            <input type="text" id="inputConsulta" placeholder="Digite o nome ou número do contato">
+            <button id="btnConsultar">Buscar</button>
+            <button id="btnMostrarTodos">Mostrar Todos</button>
+        </div><!--consulta-->
+
+<div class="Agenda">
+            <h2>Lista de Contatos</h2>
+            <div id="listaContatos">
+                <!-- Os contatos serão inseridos aqui via JavaScript -->
+                <!-- Exemplo de como ficará cada contato:
+                <div class="contato-card">
+                    <div class="contato-info"><strong>Nome:</strong> João Silva</div>
+                    <div class="contato-info"><strong>Telefone:</strong> (11) 98765-4321</div>
+                    <div class="contato-info"><strong>Email:</strong> joao@exemplo.com</div>
+                    <div class="acoes-contato">
+                        <button class="btn-editar">Editar</button>
+                        <button class="btn-excluir">Excluir</button>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div><!--Agenda-->
+
+    </main>
+           <script src="script.js"></script>
+
+</body>
+</html>

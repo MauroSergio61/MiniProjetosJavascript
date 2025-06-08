@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+    font-family: Arial, sans-serif;
+}
+
+.relogio {
+    display: flex;
+    font-size: 5rem;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #1a1a1a;
+    color: #0f0; /* Verde estilo matrix */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px; /* Espaço entre o relógio e a data */
+}
+
+.relogio span {
+    min-width: 80px;
+    text-align: center;
+}
+
+.separador {
+    animation: piscar 1s infinite;
+}
+
+.data {
+    font-size: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #1a1a1a;
+    color: #0f0; /* Verde estilo matrix */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+@keyframes piscar {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
