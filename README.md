@@ -9,8 +9,8 @@ Busca por nome ou telefone
 Validação de campos
 Tecnologias: HTML5, CSS3, JavaScript (LocalStorage)
 <div align="center">
-[<img src="AgendaDeContatos/agenda1.png" width="200" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](AgendaDeContatos/agenda1.png)
-[<img src="AgendaDeContatos/agenda2.png" width="200" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](AgendaDeContatos/agenda2.png)
+[<img src="AgendaDeContatos/agenda1.png" width="200" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>]
+[<img src="AgendaDeContatos/agenda2.png" width="200" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>]
 </div>
 
 
@@ -21,7 +21,7 @@ Interface responsiva
 Feedback visual colorido
 Tecnologias: HTML5, CSS3, JavaScript
 <div align="center">
-[<img src="CalculadoraIMC/calculadoraIMC.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](CalculadoraIMC/calculadoraIMC.png)
+[<img src="CalculadoraIMC/calculadoraIMC.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>]
 </div>
 
 5. ⭕❌ Jogo da Velha
@@ -31,7 +31,7 @@ Interface intuitiva
 Animações de vitória
 Tecnologias: HTML5, CSS3, JavaScript
 <div align="center">
-[<img src="JogoDaVelha/JogodaVelha.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](JogoDaVelha/JogodaVelha.png)
+[<img src="JogoDaVelha/JogodaVelha.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>]
 </div>
 
 4. 🔐 Gerador de Senhas
@@ -41,7 +41,7 @@ Tipos de caracteres (maiúsculas, minúsculas, números, símbolos)
 Botão de copiar para área de transferência
 Tecnologias: HTML5, CSS3, JavaScript
 <div align="center">
-[<img src="PasswordGenerator/PasswordGenerator.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](PasswordGenerator/PasswordGenerator.png)
+[<img src="PasswordGenerator/PasswordGenerator.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>]
 </div>
 
 6. ⏰ Relógio Digital
@@ -51,7 +51,7 @@ Data completa
 Design minimalista
 Tecnologias: HTML5, CSS3, JavaScript (Date API)
 <div align="center">
-[<img src="RelogioDigital/RelogioDigital.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](RelogioDigital/RelogioDigital.png)
+[<img src="RelogioDigital/RelogioDigital.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>]
 </div>
 
 8. ✅ Lista de Tarefas
@@ -62,7 +62,7 @@ Persistência no LocalStorage
 Filtros de visualização
 Tecnologias: HTML5, CSS3, JavaScript
 <div align="center">
-[<img src="ToDoList/ListaTarefas.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](ToDoList/ListaTarefas.png)
+[<img src="ToDoList/ListaTarefas.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>]
 </div>
 
 🛠 Como Executar
