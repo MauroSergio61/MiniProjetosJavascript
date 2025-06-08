@@ -8,9 +8,10 @@ Armazenamento local no navegador
 Busca por nome ou telefone
 Validação de campos
 Tecnologias: HTML5, CSS3, JavaScript (LocalStorage)
-
+<div align="center">
 [<img src="AgendaDeContatos/agenda1.png" width="200" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](AgendaDeContatos/agenda1.png)
 [<img src="AgendaDeContatos/agenda2.png" width="200" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](AgendaDeContatos/agenda2.png)
+</div>
 
 
 3. ⚖️ Calculadora IMC
@@ -19,15 +20,19 @@ Classificação automática conforme padrões da OMS
 Interface responsiva
 Feedback visual colorido
 Tecnologias: HTML5, CSS3, JavaScript
-[<img src="CalculadoraIMC/calculadoraIMC.png" width="200" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](CalculadoraIMC/calculadoraIMC.png)
+<div align="center">
+[<img src="CalculadoraIMC/calculadoraIMC.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](CalculadoraIMC/calculadoraIMC.png)
+</div>
 
-4. ⭕❌ Jogo da Velha
+5. ⭕❌ Jogo da Velha
 Jogo clássico com:
 Modo multiplayer local
 Interface intuitiva
 Animações de vitória
 Tecnologias: HTML5, CSS3, JavaScript
-[<img src="JogoDaVelha/JogodaVelha.png" width="200" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](JogoDaVelha/JogodaVelha.png)
+<div align="center">
+[<img src="JogoDaVelha/JogodaVelha.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](JogoDaVelha/JogodaVelha.png)
+</div>
 
 4. 🔐 Gerador de Senhas
 Ferramenta para criar senhas seguras com:
@@ -35,7 +40,9 @@ Personalização de comprimento
 Tipos de caracteres (maiúsculas, minúsculas, números, símbolos)
 Botão de copiar para área de transferência
 Tecnologias: HTML5, CSS3, JavaScript
-[<img src="PasswordGenerator/PasswordGenerator.png" width="200" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](PasswordGenerator/PasswordGenerator.png)
+<div align="center">
+[<img src="PasswordGenerator/PasswordGenerator.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](PasswordGenerator/PasswordGenerator.png)
+</div>
 
 6. ⏰ Relógio Digital
 Relógio em tempo real com:
@@ -43,7 +50,9 @@ Formato 12h/24h
 Data completa
 Design minimalista
 Tecnologias: HTML5, CSS3, JavaScript (Date API)
-[<img src="RelogioDigital/RelogioDigital.png" width="200" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](RelogioDigital/RelogioDigital.png)
+<div align="center">
+[<img src="RelogioDigital/RelogioDigital.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](RelogioDigital/RelogioDigital.png)
+</div>
 
 8. ✅ Lista de Tarefas
 
@@ -52,7 +61,9 @@ CRUD completo
 Persistência no LocalStorage
 Filtros de visualização
 Tecnologias: HTML5, CSS3, JavaScript
-[<img src="ToDoList/ListaTarefas.png" width="200" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](ToDoList/ListaTarefas.png)
+<div align="center">
+[<img src="ToDoList/ListaTarefas.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;"/>](ToDoList/ListaTarefas.png)
+</div>
 
 🛠 Como Executar
 Clone o repositório:
